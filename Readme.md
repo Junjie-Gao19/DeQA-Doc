@@ -10,11 +10,12 @@ If you want to train, you need to install extra dependencies:
 pip install -e .[train]
 ```
 ## Refer to the Readme of the DeQA repository
-[DeQA][https://github.com/zhiyuanyou/DeQA-Score]
+[DeQA](https://github.com/zhiyuanyou/DeQA-Score)
 
 ## Download pre-trained model
-[mPLUG-Owl2][https://huggingface.co/MAGAer13/mplug-owl2-llama2-7b]
-[DIQA_model][]
+[mPLUG-Owl2](https://huggingface.co/MAGAer13/mplug-owl2-llama2-7b)
+
+[DIQA_model]()
 
 ## Infer
 ```bash
@@ -35,7 +36,7 @@ sh scripts/train_lora.sh
 # Qwen2.5-VL-7B Training
 ## Use Llamafactory framwork to train Qwen2.5-VL-7B model
 ### Install Llamafactory
-[Llamafactory][https://github.com/hiyouga/LLaMA-Factory]
+[Llamafactory](https://github.com/hiyouga/LLaMA-Factory)
 ### Exchange src files
 You need to exchange the files in Llamafactory with the files in this repository.
 Their positions in Llama factory are consistent with those in this repository.
