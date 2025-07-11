@@ -15,7 +15,7 @@ pip install -e .[train]
 ## Download pre-trained model
 [mPLUG-Owl2](https://huggingface.co/MAGAer13/mplug-owl2-llama2-7b)
 
-[DIQA_model]()
+[DIQA_model](https://www.modelscope.cn/models/zhalala/DeQA-Doc/summary)
 
 ## Infer
 ```bash
