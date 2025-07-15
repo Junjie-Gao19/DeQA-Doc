@@ -13,9 +13,12 @@ pip install -e .[train]
 [DeQA](https://github.com/zhiyuanyou/DeQA-Score)
 
 ## Download pre-trained model
-[mPLUG-Owl2](https://huggingface.co/MAGAer13/mplug-owl2-llama2-7b)
+You can obtain the initial weight from [mPLUG-Owl2](https://huggingface.co/MAGAer13/mplug-owl2-llama2-7b)
 
-[DIQA_model](https://www.modelscope.cn/models/zhalala/DeQA-Doc/summary)
+
+[DIQA_model](https://www.modelscope.cn/models/zhalala/DeQA-Doc/summary) are different models trained separately in different dimensions
+
+[DeQA-Mix](https://www.modelscope.cn/models/zhalala/DeQA-Doc-Mix/summary) is a separate model trained with multiple dimensions mixed
 
 ## Infer
 ```bash
