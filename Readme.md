@@ -5,7 +5,9 @@ Junjie Gao, Runze Liu, Yingzhe Peng, Shujian Yang, Jin Zhang, Kai Yang and Zhiyu
 [![paper](https://img.shields.io/badge/arXiv-Paper-green.svg)](https://arxiv.org/abs/2507.12796)
 [![GitHub Stars](https://img.shields.io/github/stars/Junjie-Gao19/DeQA-Doc?style=social)](https://github.com/Junjie-Gao19/DeQA-Doc)
 
-This repository is the implementation of DeQA-Doc: Adapting DeQA-Score to Document Image Quality Assessment training and inference code. We won first place in the **VQualA 2025 DIQA: Document Image Quality Assessment Challenge**.
+This repository is the official implementation of "DeQA-Doc: Adapting DeQA-Score to Document Image Quality Assessment". 
+
+Our DeQA-Doc wins the **Championship** 🏆 in the VQualA 2025 DIQA (Document Image Quality Assessment) Challenge.
 
 ## mPLUG-Owl2-7B Training 
 ### Installation
@@ -68,13 +70,10 @@ This work is based on [DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score). Si
 ## Citation
 If you find our work useful for your research and applications, please cite using the BibTeX:
 ```bash
-@misc{gao2025deqadocadaptingdeqascoredocument,
-      title={DeQA-Doc: Adapting DeQA-Score to Document Image Quality Assessment}, 
-      author={Junjie Gao and Runze Liu and Yingzhe Peng and Shujian Yang and Jin Zhang and Kai Yang and Zhiyuan You},
-      year={2025},
-      eprint={2507.12796},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2507.12796}, 
+@inproceedings{deqadoc,
+  title={{DeQA-Doc}: Adapting {DeQA-Score} to Document Image Quality Assessment}, 
+  author={Gao, Junjie and Liu, Runze and Peng, Yingzhe and Yang, Shujian and Zhang, Jin and Yang, Kai and You, Zhiyuan},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision Workshop},
+  year={2025},
 }
 ```
